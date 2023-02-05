@@ -109,7 +109,7 @@ class FirebaseAdmin {
   }
 
   /// Creates app certificate from service account file at specified [path].
-  Credential certFromPath(String path) {
+  Credential certFromPath(dynamic path) {
     return ServiceAccountCredential(path);
   }
 
